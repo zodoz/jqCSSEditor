@@ -18,7 +18,8 @@
 	if(!window.jQuery || !jQuery.ui) {
 		var jquis = document.createElement("script");
 		jquis.type = "text/javascript";
-		jquis.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+		jquis.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js";
+		console.log("loading jqui");
 		ldr.toLoad++;
 		jquis.onload = function() {
 			window.loader.loaded++;
@@ -38,7 +39,7 @@
 			return;
 		var jqCSSEditor = document.createElement("script");
 		jqCSSEditor.type = "text/javascript";
-		jqCSSEditor.src = "https://raw.github.com/zodoz/jqCSSEditor/master";
+		jqCSSEditor.src = "https://raw.github.com/zodoz/jqCSSEditor/master/jqCSSEditor.js";
 		jqCSSEditor.onload = function() {
 			jQuery.cssEditor();
 		};
