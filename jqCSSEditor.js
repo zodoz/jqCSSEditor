@@ -17,6 +17,7 @@
 		el = $('<div>',
 				{
 					id: 'jqCSSEditor',
+					title: 'CSS Editor',
 					html: "drag me!"
 				}
 			)
