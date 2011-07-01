@@ -7,6 +7,7 @@
  	*/
   $.cssEditor = function() {
 		if(!loaded) {
+			console.log(jQuery.ui.version);
 			buildCSSEditor();
 			loaded = true;
 		}
