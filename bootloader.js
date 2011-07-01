@@ -29,7 +29,7 @@
 		var jquicss = document.createElement("LINK");
 		jquicss.type = "text/css";
 		jquicss.rel = "stylesheet";
-		jquicss.rel = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/redmond/jquery-ui.css";
+		jquicss.href = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/redmond/jquery-ui.css";
 		head.appendChild(jquicss);
 	}
 
