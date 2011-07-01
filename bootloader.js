@@ -1,12 +1,12 @@
 (function() {
 	var head = document.getElementsByTagName('head')[0];
-	if(!jQuery) {
+	if(!window.jQuery) {
 		var jqs = document.createElement("script");
 		jqs.type = "text/javascript";
 		jqs.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
 		head.appendChild(jqs);
 	}
-	if(!jQuery || !jQuery.ui) {
+	if(!window.jQuery || !jQuery.ui) {
 		var jquis = document.createElement("script");
 		jquis.type = "text/javascript";
 		jquis.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
