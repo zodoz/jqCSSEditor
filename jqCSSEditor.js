@@ -28,7 +28,7 @@
 		sliders.children("#red,#green,#blue")
 			.css({width:100});
 		sliders.children("#swatch")
-			.css({float:left,width:100,height:100});
+			.css({float:"left",width:100,height:100});
 		sliders.appendTo(el);
 		el.dialog();
 	}
