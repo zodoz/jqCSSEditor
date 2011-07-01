@@ -20,7 +20,7 @@
 					html: "drag me!"
 				}
 			)
-			.draggable()
+			.dialog()
 			.appendTo($('body'));
 	}
 })(jQuery);
