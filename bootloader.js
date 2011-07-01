@@ -18,7 +18,7 @@
 	if(!window.jQuery || !jQuery.ui) {
 		var jquis = document.createElement("script");
 		jquis.type = "text/javascript";
-		jquis.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js";
+		jquis.src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js";
 		console.log("loading jqui");
 		ldr.toLoad++;
 		jquis.onload = function() {
