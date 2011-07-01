@@ -29,11 +29,6 @@
 		jquicss.type = "text/css";
 		jquicss.rel = "stylesheet";
 		jquicss.rel = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/redmond/jquery-ui.css";
-		ldr.toLoad++;
-		jquicss.onload = function() {
-			window.loader.loaded++;
-			loadLibrary();
-		}
 		head.appendChild(jquicss);
 	}
 
