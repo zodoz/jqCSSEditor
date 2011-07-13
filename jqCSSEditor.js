@@ -29,6 +29,7 @@
 			}
 			for(var j=0;j<sheet.cssRules.length;j++) {
 				rule = sheet.cssRules[i];
+				console.log("sheet:",i,"rule:",j);
 				acRulesList.push(rule.selectorText);
 				rulesMeta[rule.selectorText] =
 						{
