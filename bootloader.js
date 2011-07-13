@@ -19,7 +19,6 @@
 		var jquis = document.createElement("script");
 		jquis.type = "text/javascript";
 		jquis.src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js";
-		console.log("loading jqui");
 		ldr.toLoad++;
 		jquis.onload = function() {
 			window.loader.loaded++;
@@ -29,17 +28,17 @@
 		var jquicss = document.createElement("LINK");
 		jquicss.type = "text/css";
 		jquicss.rel = "stylesheet";
-		jquicss.href = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.0/themes/redmond/jquery-ui.css";
+		jquicss.href = "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/redmond/jquery-ui.css";
 		head.appendChild(jquicss);
 	}
 
 	function loadLibrary() {
-		console.log("toLoad: ",ldr.toLoad,", loaded:",ldr.loaded);
 		if(ldr.toLoad != ldr.loaded)
 			return;
 		var jqCSSEditor = document.createElement("script");
 		jqCSSEditor.type = "text/javascript";
 		jqCSSEditor.src = "https://raw.github.com/zodoz/jqCSSEditor/master/jqCSSEditor.js";
+		//jqCSSEditor.src = "/js/CSSEditor/jqCSSEditor.js";
 		jqCSSEditor.onload = function() {
 			jQuery.cssEditor();
 		};
