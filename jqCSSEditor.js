@@ -29,9 +29,11 @@
 			}
 			for(var j=0;j<sheet.cssRules.length;j++) {
 				rule = sheet.cssRules[i];
-				console.log("sheet:",i,"rule:",j);
-				if(typeof rule == "undefined")
+				if(typeof rule == "undefined") {
+					console.log("error at sheet:",i,"rule:",j);
 					console.log(sheet.cssRules);
+					continue;
+				}
 				acRulesList.push(rule.selectorText);
 				rulesMeta[rule.selectorText] =
 						{
