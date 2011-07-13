@@ -34,6 +34,7 @@
 					console.log(sheet.cssRules);
 					continue;
 				}
+				console.log("adding rule: ",rule.selectorText);
 				acRulesList.push(rule.selectorText);
 				rulesMeta[rule.selectorText] =
 						{
