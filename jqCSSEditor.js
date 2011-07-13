@@ -45,6 +45,7 @@
 						};
 			}
 		}
+		console.log(acRulesList);
 	}
 
 	function cssChanged(evt) {
