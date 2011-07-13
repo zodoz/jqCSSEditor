@@ -1,0 +1,16 @@
+#jqCSSEditorDialog {
+  font-size: 12px; }
+
+#jqCSSEditor {
+  overflow: hidden; }
+
+.searchField {
+  padding: 0;
+  margin: 0 0 10px 0;
+  width: 100%; }
+
+.cssField {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 12px !important; }
