@@ -121,7 +121,8 @@
 				{
 					type: 'text/css',
 					rel: 'stylesheet',
-					href: '/css/cssEditor.css'
+					//href: '/css/cssEditor.css'
+					href: 'https://raw.github.com/zodoz/jqCSSEditor/master/cssEditor.css'
 				}
 			)
 			.appendTo(el.parent());
