@@ -7,12 +7,12 @@
 	if(!window.jQuery) {
 		var jqs = document.createElement("script");
 		jqs.type = "text/javascript";
-		jqs.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+		jqs.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js";
 		ldr.toLoad++;
 		jqs.onload = function() {
 			window.loader.loaded++;
 			loadLibrary();
-		}
+		};
 		head.appendChild(jqs);
 	}
 	if(!window.jQuery || !jQuery.ui) {
@@ -23,7 +23,7 @@
 		jquis.onload = function() {
 			window.loader.loaded++;
 			loadLibrary();
-		}
+		};
 		head.appendChild(jquis);
 		var jquicss = document.createElement("LINK");
 		jquicss.type = "text/css";
