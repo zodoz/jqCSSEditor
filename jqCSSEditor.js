@@ -89,14 +89,14 @@
 				{
 					type: 'text',
 					id: 'mksearch',
-					class: 'searchField'
+					"class": 'searchField'
 				}
 			)
 			.appendTo(el);
 		var styleText = $('<textarea>',
 				{
 					rows: 10,
-					class: 'cssField',
+					"class": 'cssField',
 					id: 'styleText'
 				}
 			)
